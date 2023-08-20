@@ -1,0 +1,39 @@
+.welcome-navbar-container {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: sticky;
+  height: auto;
+  align-items: flex-start;
+  /* background-color: #4f7cac; */
+  background-color: transparent;
+}
+
+.welcome-navbar-container1 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+
+}
+
+.welcome-navbar-container2 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.welcome-navbar-logo {
+  width: 12%;
+  height: 12%;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}

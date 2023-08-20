@@ -1,0 +1,6 @@
+.imgChange{
+    transition: 0.3s;
+}
+.imgChange:hover {
+    cursor: pointer;
+}

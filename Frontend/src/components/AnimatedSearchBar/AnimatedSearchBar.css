@@ -1,0 +1,100 @@
+.search {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 50%;
+  border: #000000 2px solid;
+  width: 50px;
+  height: 50px;
+  transition: all 1s;
+  display: flex;
+}
+
+.search::before {
+  content: "";
+  position: relative;
+  top: 30px;
+  left: 25px;
+  width: 12px;
+  height: 2px;
+  background-color: #000000;
+  transform: rotate(45deg);
+}
+
+.search::after {
+  content: "";
+  position: relative;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  top: 10px;
+  left: -1px;
+}
+
+.search:hover {
+  width: 50px;
+  height: 50px;
+}
+
+#searchbar:focus {
+  width: 300px;
+  opacity: 1;
+  cursor: text;
+  background-color: transparent;
+}
+
+#searchbar:hover {
+  cursor: pointer;
+}
+
+#searchbar {
+  font-weight: 600;
+  position: relative;
+  margin: auto;
+  top: 50px;
+  width: 50px;
+  height: 50px;
+  outline: none;
+  border: none;
+  background: #fff;
+  color: #000000;
+  text-shadow: 0 0 10px #ccc;
+  padding: 0 17px 0 20px;
+  border-radius: 30px;
+  box-shadow: 12px 13px 25px 0 #111, 8px 9px 25px 0 rgba(0, 0, 0, 0.2);
+  transition: all 1s;
+  opacity: 0;
+  z-index: 5;
+  font-weight: bolder;
+  letter-spacing: 0.1em;
+}
+
+#searchbar:focus~.search::before {
+  position: relative;
+  top: 25px;
+  width: 27px;
+  height: 2px;
+  z-index: 10;
+  border-radius: 0%;
+  border: none;
+  background-color: #000000;
+}
+
+#searchbar:focus~.search::after {
+  top: 25px;
+  width: 27px;
+  height: 2px;
+  z-index: 15;
+  border-radius: 0%;
+  transform: rotate(-45deg);
+  border: none;
+  background-color: rgb(0, 0, 0);
+}
+
+#searchbar:focus~.search {
+  left: 270px;
+  background: transparent;
+  z-index: 6;
+  border: none;
+
+}

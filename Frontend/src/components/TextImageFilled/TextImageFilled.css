@@ -1,0 +1,40 @@
+.bodyTextFilled {
+    display: flex;
+    align-items: center;
+}
+
+.containerTI {
+    margin: 0 auto;
+}
+
+#title {
+    background-size: cover;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding: 0;
+}
+
+.h1Text {
+    font-size: 200px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width:600px){
+    .form{
+    float: none;
+    text-align: center;
+    align-content: center;
+    }
+    div.title{
+        font-size: 30px;
+    }
+  }
+  @media (min-width:601px) {
+    div.title{
+        font-size: 80px;
+    } 
+  }

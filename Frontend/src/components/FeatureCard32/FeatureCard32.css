@@ -1,0 +1,33 @@
+.feature-card32-feature-card {
+    width: 100%;
+    display: flex;
+    padding: 32px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .feature-card32-icon {
+    width: 48px;
+    height: 48px;
+  }
+  .feature-card32-text {
+    font-style: normal;
+    margin-top: var(--dl-space-space-unit);
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: var(--dl-space-space-unit);
+    color: #8bc8db;
+  }
+  .feature-card32-text1 {
+    color: #fff;
+    text-align: center;
+  }
+  .feature-card32-text2 {
+    font-size: 0.75rem;
+    margin-top: var(--dl-space-space-unit);
+    font-weight: 500;
+  }
+  
+  
+  
+  
+  
