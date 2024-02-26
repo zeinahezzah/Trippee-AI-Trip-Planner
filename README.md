@@ -1,7 +1,7 @@
 # Trippee
 
 <p align="center">
-  <img height="190" src="Frontend/logo.png">
+  <img height="190" src="Frontend/public/logo.png">
 </p>
 
 A web application that allows people to create itinerary travelling plan along with city
